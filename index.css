@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .card{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  h1{
+    color: crimson;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  p {
+    color: deeppink;
+    line-height: 1.6;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
+  
